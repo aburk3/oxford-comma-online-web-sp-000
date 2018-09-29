@@ -1,4 +1,5 @@
 def oxford_comma(array)
-  array.insert(-2, "and")
-  array.join(", ")
+  last_person = array.pop
+  my_people = array.join(", ")
+  my_people << " and #{last_person}"
 end
