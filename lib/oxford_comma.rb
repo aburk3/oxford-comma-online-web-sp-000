@@ -5,4 +5,5 @@ def oxford_comma(array)
     my_people << " and #{last_person}"
   else
     return array.join
+  end
 end
